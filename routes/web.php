@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::apiResource('/', ApontmentController::class);
 
+
 Route::apiResource('/contacts', ContactController::class);
 
 Route::get('pratique', function(){
@@ -23,7 +24,11 @@ Route::get('Nouvelles-recentes', function(){
     return view('Jurisprudences.Jurisprudence');
 });
 
+// 
+
 Route::get('{locale}/home', [LanguageController::class, 'arabic'])->name('lang.switch');
+Route::post('ar/home', [LanguageController::class, 'arStore'])->name('lang.switch');
+
 Route::get('{locale}/contact', [LanguageController::class, 'arabicContact'])->name('lang.switch.contact');
 Route::get('{locale}/Nouvelles-recentes', [LanguageController::class, 'arabicJurisprudences'])->name('lang.switch.recente');
 Route::get('{locale}/practices', [LanguageController::class, 'arabicPractices'])->name('lang.switch.practices');

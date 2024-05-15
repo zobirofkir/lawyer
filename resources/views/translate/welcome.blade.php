@@ -18,7 +18,8 @@
 <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="{{asset('assets/css/modal.css')}}">  
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -62,7 +63,7 @@
 <div id="modal" class="modal text-center">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <form class="form-contact contact_form" action="{{url('/')}}" method="post" id="" >
+        <form class="form-contact contact_form" action="{{route('lang.switch')}}" method="post" id="" >
             @csrf
         <div class="row">
         <div class="col-12">
@@ -453,7 +454,7 @@
     <div class="contact-now d-flex align-items-center justify-content-end flex-wrap">
         <span>يمكنكم التواصل معنا عبر</span>
         <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0539946181</a>
-        <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a>
+        {{-- <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a> --}}
     </div>    
 </div>
 </div>

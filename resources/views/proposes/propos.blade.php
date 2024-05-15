@@ -212,7 +212,7 @@
 <div class="contact-now d-flex align-items-center justify-content-end flex-wrap">
 <span>Nous contacter</span>
 <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0539946181</a>
-<a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a>
+{{-- <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a> --}}
 </div>    
 </div>
 </div>

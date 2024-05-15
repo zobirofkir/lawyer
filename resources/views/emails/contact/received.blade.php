@@ -1,4 +1,3 @@
-@component('mail::message')
 Username: {{ $contact['username'] }}
 <br><br>
 Email: {{ $contact['email'] }}
@@ -7,5 +6,4 @@ Subject : {{$contact['subject']}}
 <br><br>
 Message: {{ $contact['message'] }}
 <br><br>
-{{ config('app.name') }}
-@endcomponent
+=
