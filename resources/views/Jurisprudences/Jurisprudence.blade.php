@@ -91,16 +91,32 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
-                                <h3>15</h3>
-                                <p>Jan</p>
+                            <a href="{{asset('pdf/قرار عدد 955 مؤرخ 22 12 2011-1.pdf')}}" target="_blank" class="blog_item_date">
+                                <h3>Télécharger</h3>
                             </a>
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">PDF ONE</h2>
+                                <h2 class="blog-head">هذا قرا ر اداري</h2>
                             </a>
-                            <p>PDF DESCRIPTION</p>
+                            <p>هذا قرا ر اداري</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{asset('pdf/16_2022.pdf')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">هذا تجاري</h2>
+                            </a>
+                            <p>هذا تجاري</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -110,15 +126,14 @@
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
                             <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
-                                <h3>15</h3>
-                                <p>Jan</p>
+                                <h3>Télécharger</h3>
                             </a>
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">PDF TWO</h2>
+                                <h2 class="blog-head">قرارات مدنية</h2>
                             </a>
-                            <p>PDF DESCRIPTION</p>
+                            <p>قرارات مدنية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -128,15 +143,14 @@
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
                             <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
-                                <h3>15</h3>
-                                <p>Jan</p>
+                                <h3>Télécharger</h3>
                             </a>
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">PDF THREE</h2>
+                                <h2 class="blog-head">قرارات تجارية</h2>
                             </a>
-                            <p>PDF DESCRIPTION</p>
+                            <p>قرارات تجارية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -146,19 +160,106 @@
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
                             <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
-                                <h3>15</h3>
-                                <p>Jan</p>
+                                <h3>Télécharger</h3>
                             </a>
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">PDF FOUR</h2>
+                                <h2 class="blog-head">قرارات عقارية</h2>
                             </a>
-                            <p>PDF DESCRIPTION</p>
+                            <p>قرارات عقارية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
                     </article>
+
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرارات صعوبات المقاولة</h2>
+                            </a>
+                            <p>قرارات صعوبات المقاولة</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرارات جنائية</h2>
+                            </a>
+                            <p>قرارات جنائية</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرارات اجتماعية</h2>
+                            </a>
+                            <p>قرارات اجتماعية</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرارات ادارية</h2>
+                            </a>
+                            <p>قرارات ادارية</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرارات اسرية</h2>
+                            </a>
+                            <p>قرارات اسرية</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
                 </div>
             </div>
             <div class="col-lg-4">
