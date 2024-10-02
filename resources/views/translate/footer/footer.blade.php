@@ -21,12 +21,11 @@
     <div class="footer-menu">
     <nav>
     <ul>
-    <li><a href="{{url('/')}}">الصفحة الرئيسية</a></li>
-    <li><a href="{{url('/pratique')}}">مجالات الخبرة</a></li>
-    <li><a href="{{url('/propos')}}">من نحن</a></li>
-    <li><a href="{{url('Jurisprudence')}}">فقه القضاء</a>
-    </li>
-    <li><a href="{{url('/contacts')}}">اتصل بنا</a></li>
+        <li><a href="{{ url('ar/home') }}">الصفحة الرئيسية </a></li>
+        <li><a href="{{ url('ar/practices') }}">مجالات الخبرة</a></li>
+        <li><a href="{{ url('ar/propos') }}">المكتب</a></li>
+        <li><a href="{{ url('ar/Nouvelles-recentes') }}">المنشورات</a></li>
+        <li><a href="{{ url('ar/contact') }}">اتصل بنا</a></li>
     </ul>
     </nav>
     </div>

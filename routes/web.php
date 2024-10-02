@@ -26,10 +26,17 @@ Route::get('Nouvelles-recentes', function(){
 
 // 
 
-Route::get('{locale}/home', [LanguageController::class, 'arabic'])->name('lang.switch');
-Route::post('ar/home', [LanguageController::class, 'arStore'])->name('lang.switch');
+Route::get('ar/home', [LanguageController::class, 'arabic'])->name('lang.switch');
+Route::get('ar/contact', [LanguageController::class, 'arabicContact'])->name('lang.switch.contact');
+Route::get('ar/Nouvelles-recentes', [LanguageController::class, 'arabicJurisprudences'])->name('lang.switch.recente');
+Route::get('ar/practices', [LanguageController::class, 'arabicPractices'])->name('lang.switch.practices');
+Route::get('ar/propos', [LanguageController::class, 'arabicPropos'])->name('lang.switch.propos');
 
-Route::get('{locale}/contact', [LanguageController::class, 'arabicContact'])->name('lang.switch.contact');
-Route::get('{locale}/Nouvelles-recentes', [LanguageController::class, 'arabicJurisprudences'])->name('lang.switch.recente');
-Route::get('{locale}/practices', [LanguageController::class, 'arabicPractices'])->name('lang.switch.practices');
-Route::get('{locale}/propos', [LanguageController::class, 'arabicPropos'])->name('lang.switch.propos');
+
+
+
+Route::get('en/welcome', [LanguageController::class, 'english'])->name('lang.switch');
+Route::get('en/contacte', [LanguageController::class, 'englishContact'])->name('lang.switch.contact');
+Route::get('en/Recent-News', [LanguageController::class, 'englishJurisprudences'])->name('lang.switch.recente');
+Route::get('en/practice', [LanguageController::class, 'englishPractices'])->name('lang.switch.practices');
+Route::get('en/about', [LanguageController::class, 'englishPropos'])->name('lang.switch.propos');

@@ -8,16 +8,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/slicknav.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
-<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="assets/css/themify-icons.css">
-<link rel="stylesheet" href="assets/css/slick.css">
-<link rel="stylesheet" href="assets/css/nice-select.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="{{asset("assets/css/bootstrap.min.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/owl.carousel.min.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/slicknav.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/animate.min.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/magnific-popup.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/fontawesome-all.min.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/themify-icons.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/slick.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/nice-select.css")}}">
+<link rel="stylesheet" href="{{asset("assets/css/style.css")}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -41,8 +43,11 @@
 <div class="row">
 <div class="col-xl-5 col-lg-6 col-md-8">
 <div class="hero-caption hero-caption2">
-<h2>Nouvelles recentes</h2>
-<p>Cabinet d’avocat Maitre Rachid Rethmani.</p>
+<h2>Publications</h2>
+<p>
+    Dans cette section, nous mettons en avant les publications de Maître Rachid Rethmani ainsi que
+    d'autres articles et ouvrages juridiques pertinents à l'échelle nationale et internationale.
+</p>
 </div>
 </div>
 </div>
@@ -50,6 +55,33 @@
 </div>
 </div>
 
+<!-- <section class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Publications de Maître Rethmani</h3>
+                <p>
+                    Depuis la fondation du cabinet en 1989, Maître Rethmani a contribué à de nombreuses publications juridiques. Ses écrits couvrent un large éventail de sujets, allant du droit des affaires et du droit commercial à des analyses approfondies de la législation marocaine et des évolutions juridiques internationales. Ces publications, souvent présentes dans des revues spécialisées et des journaux juridiques, reflètent son expertise et son engagement envers l'avancement du droit.
+                </p>
+                
+                <h3>Publications Nationales et Internationales</h3>
+                <p>
+                    En plus des contributions de Maître Rethmani, nous vous proposons une sélection d'articles et d'ouvrages rédigés par des experts reconnus du domaine juridique. Ces publications couvrent divers aspects du droit et offrent des perspectives précieuses sur les tendances actuelles et les développements importants. Que ce soit des analyses de jurisprudence, des commentaires sur les réformes législatives ou des études de cas, ces ressources sont choisies pour leur pertinence et leur qualité.
+                </p>
+                
+                    <h3>Accès et Ressources</h3>
+                <p>
+                    Nous croyons fermement à l’importance de l’information et de l’éducation continues. C'est pourquoi nous avons créé cette bibliothèque de ressources pour nos clients et visiteurs. Vous pourrez consulter ces publications directement sur notre site ou via des liens vers les plateformes où elles sont disponibles. Cette section est régulièrement mise à jour pour inclure les dernières contributions et publications pertinentes.
+                </p>
+                
+                <h3>Engagement envers l'Excellence Juridique</h3>
+                <p>
+                    En partageant ces publications, notre objectif est de promouvoir une compréhension plus approfondie du droit et de contribuer au dialogue juridique, tant au niveau national qu'international. Nous espérons que vous trouverez ces ressources utiles et informatives, et qu'elles vous apporteront une meilleure compréhension des complexités du droit. Explorez cette section pour découvrir les contributions du cabinet d’avocat Maître Rethmani Tanger et d'autres experts juridiques, et restez informé des développements les plus récents et les plus pertinents dans le monde juridique.
+                </p>
+            </div>
+        </div>
+    </div>
+</section> -->
 
 <section class="blog_area section-padding" style="display: flex; justify-content: center; align-items: center;">
     <div class="container">
@@ -150,9 +182,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
+<script src="{{asset("assets/js/vendor/modernizr-3.5.0.min.js")}}"></script>
+<script src="{{asset("assets/js/vendor/jquery-1.12.4.min.js")}}"></script>
+<script src="{{asset("assets/js/popper.min.js")}}"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script src="assets/js/owl.carousel.min.js"></script>

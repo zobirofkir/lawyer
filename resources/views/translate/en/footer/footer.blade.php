@@ -12,7 +12,7 @@
     </div>
     <div class="footer-tittle">
     <div class="footer-pera">
-    <p>Adresse : 44, Rue Antaki, Immeuble Al Oumam 2, N 19, Place des nations, Tanger Maroc .</p>
+    <p>Address: 44, Rue Antaki, Immeuble Al Oumam 2, N 19, Place des Nations, Tangier Morocco .</p>
     </div>
     </div>
     </div>
@@ -21,12 +21,12 @@
     <div class="footer-menu">
     <nav>
     <ul>
-    <li><a href="{{url('/')}}">Accueil</a></li>
-    <li><a href="{{url('/pratique')}}">Les domaines d´expertises</a></li>
-    <li><a href="{{url('/propos')}}">Qui sommes-nous ? ou présentation</a></li>
-    <li><a href="{{url('Jurisprudence')}}">Jurisprudence</a>
+    <li><a href="{{url('/en/welcome')}}">Home </a></li>
+    <li><a href="{{url('/en/practice')}}">Areas of expertise</a></li>
+    <li><a href="{{url('/en/about')}}">About Us</a></li>
+    <li><a href="{{url('/en/Recent-News')}}">Publications</a>
     </li>
-    <li><a href="{{url('/contacts')}}">Nous contacter</a></li>
+    <li><a href="{{url('/en/contacte')}}">Contact us</a></li>
     </ul>
     </nav>
     </div>
@@ -44,7 +44,7 @@
     <div class="d-flex justify-content-between flex-wrap align-items-center">
     <div class="footer-info-left d-none d-lg-block">
     <ul>
-    <li>Appelez-nous: 0539946181 </li>
+    <li>Call us: 0539946181 </li>
     <li><a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c303d25392e6b6a1c3b313d3530723f3331" style="color: white;">cabinetrethmani@gmail.com</a></li>
     </ul>
     </div>

@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="assets/css/slick.css">
 <link rel="stylesheet" href="assets/css/nice-select.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -25,7 +27,7 @@
         display: none !important;
     }
 
-    body {
+    body { 
         top: 0 !important;
     }
 </style>
@@ -45,47 +47,54 @@
 <p>Cabinet d’avocat Maitre Rachid Rethmani.</p>
 </div>
 </div>
+</div> 
 </div>
 </div>
 </div>
-</div>
-
+ 
 
 
 <section class="contact-section">
 <div class="container">
 <div class="d-none d-sm-block mb-5 pb-4" style="text-align: center">
+    <h1>Contact et Consultation</h1>
+    <p>
+        Le cabinet d'avocats Maître Rachid Rethmani met à votre disposition plusieurs moyens de contact
+        pour faciliter la prise de rendez-vous et assurer une consultation adaptée à vos besoins. Nous
+        comprenons l’importance d’une communication efficace et sommes déterminés à être accessibles
+        pour tous nos clients, qu’ils soient proches ou à distance.
+    </p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9067776526485!2d-5.807041723598143!3d35.777666224669524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f5784cbc3bf%3A0xcc121fc7459a067c!2sPlace%20des%20Nations%2C%2044%20Rue%20Antaki%2C%20Tangier%2090000!5e0!3m2!1sfr!2sma!4v1715350058226!5m2!1sfr!2sma" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 <div class="row">
 <div class="col-12">
-<h2 class="contact-title">Get in Touch</h2>
+<h5 class="contact-title">Pour prendre rendez-vous, vous pouvez nous contacter via les canaux suivants :</h5>
 </div>
-<div class="col-lg-8">
+<div class="col-lg-8" style="margin-top: 20px">
 
 <form class="form-contact contact_form" action="{{url('/contacts')}}" method="post" id="" >
     @csrf
 <div class="row">
 <div class="col-12">
 <div class="form-group">
-<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Votre nom et prénom'" placeholder=" Votre Message"></textarea>
 </div>
 </div>
 <div class="col-sm-6">
 <div class="form-group">
-<input class="form-control valid" name="username" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+<input class="form-control valid" name="username" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Votre nom et prénom'" placeholder="Votre nom et prénom">
 </div>
 </div>
 <div class="col-sm-6">
 <div class="form-group">
-<input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+<input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Adresse mail'" placeholder="Adresse mail">
 </div>
 </div>
 <div class="col-12">
 <div class="form-group">
-<input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+<input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sujet'" placeholder="Sujet">
 </div>
 </div>
 </div>
@@ -94,10 +103,11 @@
 </div>
 </form>
 </div>
-<div class="col-lg-3 offset-lg-1">
+<div class="col-lg-3 offset-lg-1" style="margin-top: 20px;">
 <div class="media contact-info">
 <span class="contact-info__icon"></span>
 <div class="media-body">
+
 <h3>Tanger Maroc.</h3>
 <p>44, Rue Antaki, Immeuble Al Oumam 2, N 19, Place des nations, Tanger Maroc </p>
 </div>
@@ -105,7 +115,7 @@
 <div class="media contact-info">
 <span class="contact-info__icon"></span>
 <div class="media-body">
-<h3>0539946181</h3>
+<h3>+212 539946181</h3>
 </div>
 <div class="media-body" style="margin-left: 20px;">
 <h3>+212 661296017</h3>
@@ -126,6 +136,42 @@
 </section>
 
 </main>
+
+
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Options de Consultation</h2>
+                <h4 class="text-center font-bold">Nos consultations peuvent se dérouler de deux manières, selon vos préférences et vos disponibilités :
+                </h4>
+                <h5 class="p-10">Au Cabinet</h5>
+                <p>
+                     Pour les clients locaux, nous offrons des consultations en personne dans nos bureaux situés à l’adresse ci-dessus. Vous serez accueilli dans un environne   ment professionnel et confidentiel, propice à une discussion détaillée de votre dossier.
+                </p>
+                
+                    <h5 class="p-10">En Visio Conférence</h5>
+                <p>
+                Pour les clients à distance ou ceux qui préfèrent éviter les déplacements, nous proposons des consultations en visioconférence. Utilisant des plateformes sécurisées, nous assurons une communication claire et confidentielle, quel que soit votre emplacement.
+                </p>
+                
+                    <h5 class="p-10">Prise de Rendez-vous Flexible </h5>
+                <p>
+                    Nous nous efforçons d’offrir une flexibilité maximale dans la planification des rendez-vous. Que vous
+                    optiez pour un appel téléphonique, un message WhatsApp, un e-mail, ou notre formulaire en ligne,
+                    nous nous engageons à répondre rapidement et à organiser une consultation à un moment qui vous
+                    convient le mieux.
+                </p>
+                <p>
+                    N’hésitez pas à nous contacter dès aujourd’hui pour fixer un rendez-vous et découvrir comment le
+                    cabinet d'avocats Maître Rachid Rethmani peut vous assister avec compétence et dévouement dans
+                    toutes vos affaires juridiques.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 @include('footer.footer')
 
 <div id="back-top">

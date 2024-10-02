@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="ar" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
     .goog-te-banner-frame.skiptranslate {
@@ -41,8 +42,8 @@
 <div class="row">
 <div class="col-xl-5 col-lg-6 col-md-8">
 <div class="hero-caption hero-caption2">
-<h2>اتصال</h2>
-<p>مكتب المحامي الأستاذ رشيد الرثماني.</p>
+<h2>إتصل بنا</h2>
+<p>مكتب المحامي الأستاذ رشيد الرثماني</p>
 </div>
 </div>
 </div>
@@ -51,17 +52,22 @@
 </div>
 
 
-
+ 
 <section class="contact-section">
 <div class="container">
 <div class="d-none d-sm-block mb-5 pb-4" style="text-align: center">
 
+<h1>اتصال واستشارة</h1>
+<p>
+يوفر مكتب المحامي رشيد رثماني عدة وسائل اتصال لتسهيل تحديد المواعيد وضمان تقديم استشارة تتناسب مع احتياجاتكم. نحن ندرك أهمية التواصل الفعّال وملتزمون بأن نكون في متناول جميع عملائنا، سواء كانوا قريبين أو بعيدين.</p>
+
+    
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9067776526485!2d-5.807041723598143!3d35.777666224669524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f5784cbc3bf%3A0xcc121fc7459a067c!2sPlace%20des%20Nations%2C%2044%20Rue%20Antaki%2C%20Tangier%2090000!5e0!3m2!1sfr!2sma!4v1715350058226!5m2!1sfr!2sma" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 <div class="row">
 <div class="col-12">
-<h2 class="contact-title">ابقى على تواصل</h2>
+<h5 class="contact-title">لحجز موعد، يمكنكم الاتصال بنا عبر القنوات التالية</h5>
 </div>
 <div class="col-lg-8">
 
@@ -105,7 +111,7 @@
 <div class="media contact-info">
 <span class="contact-info__icon"></span>
 <div class="media-body">
-<h3>0539946181</h3>
+<h3>+212 539946181</h3>
 </div>
 <div class="media-body" style="margin-left: 20px;">
 <h3>+212 661296017</h3>
@@ -126,6 +132,36 @@
 </section>
 
 </main>
+
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right" style="direction: rtl;">
+                <h2>خيارات الاستشارة</h2>
+                <h4 class="font-bold">يمكن أن تتم استشاراتنا بطريقتين، حسب تفضيلاتكم وتوفر وقتكم 
+                </h4>
+                <h5 class="p-10">في المكتب</h5>
+                <p>
+                    بالنسبة للعملاء المحليين، نقدم استشارات حضورية في مكاتبنا الواقعة في العنوان المذكور أعلاه. ستتم استقبالكم في بيئة مهنية وسرية، مما يتيح مناقشة مفصلة لملفكم        
+                </p>
+                
+                <h5 class="p-10">عبر الفيديو كونفرنس</h5>
+                <p>
+                    بالنسبة للعملاء عن بُعد أو الذين يفضلون تجنب التنقلات، نقدم استشارات عبر الفيديو كونفرنس. باستخدام منصات آمنة، نضمن تواصلاً واضحًا وسريًا، بغض النظر عن موقعكم.   
+                </p>
+                
+                <h5 class="p-10">مرونة في تحديد المواعيد </h5>
+                <p>
+                    نحن نسعى جاهدين لتوفير أقصى درجات المرونة في تخطيط المواعيد. سواء اخترتم الاتصال الهاتفي، رسالة واتساب، البريد الإلكتروني، أو نموذجنا عبر الإنترنت، نلتزم بالرد السريع وتنظيم استشارة في الوقت الذي يناسبكم.       
+                </p>
+                <p>
+                    لا تترددوا في الاتصال بنا اليوم لتحديد موعد واكتشاف كيف يمكن لمكتب المحامي رشيد رثماني مساعدتكم بكفاءة وتفانٍ في جميع شؤونكم القانونية.     
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 @include('translate.footer.footer')
 <div id="back-top">
 <a title="Go to Top" href="contact.html#"> <i class="fas fa-level-up-alt"></i></a>

@@ -13,20 +13,8 @@ use Illuminate\Support\Facades\Mail;
 class LanguageController extends Controller
 {
 
-    public function arabic($locale)
+    public function arabic()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.welcome'); 
     }
 
@@ -38,71 +26,23 @@ class LanguageController extends Controller
     }
 
 
-    public function arabicContact($locale)
+    public function arabicContact()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.contact'); // Redirect back to welcome view
     }
 
-    public function arabicJurisprudences($locale)
+    public function arabicJurisprudences()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.jurisprudences'); // Redirect back to welcome view
     }
 
-    public function arabicPractices($locale)
+    public function arabicPractices()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.practice'); // Redirect back to welcome view
     }
 
-    public function arabicPropos($locale)
+    public function arabicPropos()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.propos'); // Redirect back to welcome view
     }
 
@@ -110,91 +50,31 @@ class LanguageController extends Controller
         Create English Translation
     */
 
-    public function english($locale)
+    
+    public function english()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.en.welcome'); 
     }
 
-    public function englishContact($locale)
+    public function englishContact()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.en.contact'); // Redirect back to welcome view
     }
 
-    public function englishJurisprudences($locale)
+    public function englishJurisprudences()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
-        return view('translate.en.jurisprudences'); // Redirect back to welcome view
+        return view('translate.en.Jurisprudence'); // Redirect back to welcome view
     }
 
-    public function englishPractices($locale)
+    public function englishPractices()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.en.practice'); // Redirect back to welcome view
     }
 
-    public function englishPropos($locale)
+    public function englishPropos()
     {
-        // Validate supported locales
-        $supportedLocales = ['ar', 'en']; // Add more if needed
-
-        // Check if locale is supported
-        if (in_array($locale, $supportedLocales)) {
-            // Set application locale
-            App::setLocale($locale);
-
-            // Store locale in a cookie
-            session()->put('locale', $locale);
-        }
-
         return view('translate.en.propos'); // Redirect back to welcome view
     }
-
 
 }
 

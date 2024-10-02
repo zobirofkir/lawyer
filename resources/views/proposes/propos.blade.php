@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="assets/css/slick.css">
 <link rel="stylesheet" href="assets/css/nice-select.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <style>
     .goog-te-banner-frame.skiptranslate {
@@ -31,7 +33,7 @@
 
 </head>
 <body>
-    @include('header.header')
+@include('header.header')
 <main>
 
 <div class="slider-area">
@@ -40,8 +42,10 @@
 <div class="row">
 <div class="col-xl-5 col-lg-6 col-md-8">
 <div class="hero-caption hero-caption2">
-<h2>A Propos</h2>
-<p>Cabinet d’avocat Maitre Rachid Rethmani.</p>
+<h2 style="white-space: nowrap; font-size: 2.5rem;">Qui sommes-nous</h2>
+<p>
+Cabinet d´avocat Maître Rachid Rethmani
+</p>
 </div>
 </div>
 </div>
@@ -93,7 +97,7 @@
 <div class="about-caption">
 
 <div class="section-tittle mb-35">
-<h2>Cabinet d´avocat Maître Rachid Rethamni</h2>
+<h2>Cabinet d´avocat Maître Rachid Rethmani</h2>
 <h3>"Fondé en 1989, le cabinet de Maître RETHMANI, agréé par la Cour de Cassation, fait partie du Barreau de Tanger."</h3>
 </div>
 <p>Au fil des années, notre cabinet s'est forgé une réputation solide et une expertise reconnue dans le domaine juridique. Avec une équipe composée de plusieurs avocats expérimentés et d'un personnel administratif compétent, nous offrons une gamme étendue de compétences, nous permettant de répondre efficacement à diverses problématiques juridiques, qu'elles soient de nature civile, pénale, commerciale ou administrative. 
@@ -103,95 +107,10 @@
     En somme, Maître RETHMANI et son équipe sont reconnus pour leur engagement envers la qualité du service et leur capacité à répondre aux besoins variés de leurs clients avec professionnalisme et impartialité.
 </p>
 </div>
-<div class="about-bottom">
-<span>Rachid Rethamni <p> - Domaine Avocat Rethamni </p></span>    
-</div>
 </div>
 </div>
 </div>
 </section>
-
-<div class="services-area section-padding">
-    <div class="container">
-        <div class="row justify-content-center mb-50">
-            <div class="col-xl-6 col-lg-6 col-md-10">
-                <div class="section-tittle text-center">
-                    <h2>Nouvelles récentes</h2>
-                    <p>Les meilleurs avocats au Maroc offrent une expertise juridique précieuse et une défense efficace pour protéger vos droits.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5 col-md-6 col-sm-10">
-                <div class="single-services">
-                    <div class="services-img">
-                        <img src="assets/img/gallery/news1.jpg" alt="">
-                    </div>
-                    <div class="services-caption">
-                        <span>Information sur le cabinet</span>
-                        <h3><a href="#" class="popup-link" data-toggle="modal" data-target="#exampleModal">Information sur le cabinet</a></h3>
-                        <p>Le Barreau de Tanger, agréé auprès de la Cour de Cassation depuis 1989 ...</p>
-                        <a href="#" class="popup-link btn btn-primary" data-toggle="modal" data-target="#exampleModal">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" style="margin-top: 80px;" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Information sur le cabinet</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Le Barreau de Tanger, agréé auprès de la Cour de Cassation depuis 1989, propose une équipe d'avocats et de personnel administratif polyvalents, aptes à résoudre diverses problématiques juridiques avec expertise.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="{{url('/')}}" class="btn btn-primary">En savoir plus</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-10">
-                <div class="single-services">
-                    <div class="services-img">
-                        <img src="assets/img/gallery/news1.jpg" alt="">
-                    </div>
-                    <div class="services-caption">
-                        <span>Le Barreau de Tanger</span>
-                        <h3><a href="#" class="popup-link" data-toggle="modal" data-target="#exampleModal2">Expertise Juridique</a></h3>
-                        <p>Le Barreau de Tanger offre une équipe polyvalente d'experts juridiques spéc ...</p>
-                        <a href="#" class="popup-link btn btn-primary" data-toggle="modal" data-target="#exampleModal2">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="margin-top: 80px;" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Le Barreau de Tanger : Expertise Juridique Multidisciplinaire pour les Entreprises</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Le Barreau de Tanger offre une équipe polyvalente d'experts juridiques spécialisés dans divers domaines pour soutenir les entreprises dans leurs défis juridiques.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="{{url('/')}}" class="btn btn-primary">En savoir plus</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <div class="want-wrapper">
 <div class="container">
@@ -204,13 +123,14 @@
 </blockquote>
 <div class="wantToWork-caption wantToWork-caption2">
 <h2>Cabinet d´avocat</h2>
-<p>Cabinet du Maître Rachid Rethamni</p>
+<p>Cabinet du Maître Rachid Rethmani</p>
 </div>
 </div>
 </div>
 <div class="col-xl-7 col-lg-7 col-md-12">
 <div class="contact-now d-flex align-items-center justify-content-end flex-wrap">
 <span>Nous contacter</span>
+<a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a>
 <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0539946181</a>
 {{-- <a href="{{url('/')}}" class="btn2 wantToWork-btn"><i class="fas fa-phone-alt"></i>0661296017</a> --}}
 </div>    
