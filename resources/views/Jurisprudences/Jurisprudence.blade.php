@@ -66,7 +66,7 @@
                 
                 <h3>Publications Nationales et Internationales</h3>
                 <p>
-                    En plus des contributions de Maître Rethmani, nous vous proposons une sélection d'articles et d'ouvrages rédigés par des experts reconnus du domaine juridique. Ces publications couvrent divers aspects du droit et offrent des perspectives précieuses sur les tendances actuelles et les développements importants. Que ce soit des analyses de jurisprudence, des commentaires sur les réformes législatives ou des études de cas, ces ressources sont choisies pour leur pertinence et leur qualité.
+                    En plus des contributions de Maître Rethmani, nous vous proposons une sélection d'articles et d'ouvrages rédigés par des experts reconnus du domaine juridique. Ces publications couvrent divers aspects du droit et offrent des perspectives précieuses sur les tendances actuelles et les développements importants. Que ce soit des analyses de Nouvelles-recentes, des commentaires sur les réformes législatives ou des études de cas, ces ressources sont choisies pour leur pertinence et leur qualité.
                 </p>
                 
                     <h3>Accès et Ressources</h3>
@@ -91,13 +91,13 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Jurisprudence')}}" class="blog_item_date">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
                                 <h3>15</h3>
                                 <p>Jan</p>
                             </a>
                         </div>
                         <div class="blog_details">
-                            <a class="d-inline-block" href="{{url('/Jurisprudence')}}">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
                                 <h2 class="blog-head">PDF ONE</h2>
                             </a>
                             <p>PDF DESCRIPTION</p>
@@ -109,13 +109,13 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Jurisprudence')}}" class="blog_item_date">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
                                 <h3>15</h3>
                                 <p>Jan</p>
                             </a>
                         </div>
                         <div class="blog_details">
-                            <a class="d-inline-block" href="{{url('/Jurisprudence')}}">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
                                 <h2 class="blog-head">PDF TWO</h2>
                             </a>
                             <p>PDF DESCRIPTION</p>
@@ -127,13 +127,13 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Jurisprudence')}}" class="blog_item_date">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
                                 <h3>15</h3>
                                 <p>Jan</p>
                             </a>
                         </div>
                         <div class="blog_details">
-                            <a class="d-inline-block" href="{{url('/Jurisprudence')}}">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
                                 <h2 class="blog-head">PDF THREE</h2>
                             </a>
                             <p>PDF DESCRIPTION</p>
@@ -145,13 +145,13 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Jurisprudence')}}" class="blog_item_date">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
                                 <h3>15</h3>
                                 <p>Jan</p>
                             </a>
                         </div>
                         <div class="blog_details">
-                            <a class="d-inline-block" href="{{url('/Jurisprudence')}}">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
                                 <h2 class="blog-head">PDF FOUR</h2>
                             </a>
                             <p>PDF DESCRIPTION</p>
@@ -174,7 +174,7 @@
 @include('footer.footer')
 
 <div id="back-top">
-<a title="Go to Top" href="{{url('Jurisprudence')}}"> <i class="fas fa-level-up-alt"></i></a>
+<a title="Go to Top" href="{{url('Nouvelles-recentes')}}"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
