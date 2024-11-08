@@ -55,34 +55,6 @@
 </div>
 </div>
 
-<!-- <section class="section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>Publications de Maître Rethmani</h3>
-                <p>
-                    Depuis la fondation du cabinet en 1989, Maître Rethmani a contribué à de nombreuses publications juridiques. Ses écrits couvrent un large éventail de sujets, allant du droit des affaires et du droit commercial à des analyses approfondies de la législation marocaine et des évolutions juridiques internationales. Ces publications, souvent présentes dans des revues spécialisées et des journaux juridiques, reflètent son expertise et son engagement envers l'avancement du droit.
-                </p>
-                
-                <h3>Publications Nationales et Internationales</h3>
-                <p>
-                    En plus des contributions de Maître Rethmani, nous vous proposons une sélection d'articles et d'ouvrages rédigés par des experts reconnus du domaine juridique. Ces publications couvrent divers aspects du droit et offrent des perspectives précieuses sur les tendances actuelles et les développements importants. Que ce soit des analyses de Nouvelles-recentes, des commentaires sur les réformes législatives ou des études de cas, ces ressources sont choisies pour leur pertinence et leur qualité.
-                </p>
-                
-                    <h3>Accès et Ressources</h3>
-                <p>
-                    Nous croyons fermement à l’importance de l’information et de l’éducation continues. C'est pourquoi nous avons créé cette bibliothèque de ressources pour nos clients et visiteurs. Vous pourrez consulter ces publications directement sur notre site ou via des liens vers les plateformes où elles sont disponibles. Cette section est régulièrement mise à jour pour inclure les dernières contributions et publications pertinentes.
-                </p>
-                
-                <h3>Engagement envers l'Excellence Juridique</h3>
-                <p>
-                    En partageant ces publications, notre objectif est de promouvoir une compréhension plus approfondie du droit et de contribuer au dialogue juridique, tant au niveau national qu'international. Nous espérons que vous trouverez ces ressources utiles et informatives, et qu'elles vous apporteront une meilleure compréhension des complexités du droit. Explorez cette section pour découvrir les contributions du cabinet d’avocat Maître Rethmani Tanger et d'autres experts juridiques, et restez informé des développements les plus récents et les plus pertinents dans le monde juridique.
-                </p>
-            </div>
-        </div>
-    </div>
-</section> -->
-
 <section class="blog_area section-padding" style="display: flex; justify-content: center; align-items: center;">
     <div class="container">
         <div class="row justify-content-center">
@@ -97,9 +69,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">هذا قرا ر اداري</h2>
+                                <h2 class="blog-head">قرار اداري</h2>
                             </a>
-                            <p>هذا قرا ر اداري</p>
+                            <p> قرار اداري</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -114,9 +86,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">هذا تجاري</h2>
+                                <h2 class="blog-head">قرار تجاري</h2>
                             </a>
-                            <p>هذا تجاري</p>
+                            <p>قرار تجاري</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -131,9 +103,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات مدنية</h2>
+                                <h2 class="blog-head">قرار مدنية</h2>
                             </a>
-                            <p>قرارات مدنية</p>
+                            <p>قرار مدنية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -148,9 +120,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات تجارية</h2>
+                                <h2 class="blog-head">قرار تجارية</h2>
                             </a>
-                            <p>قرارات تجارية</p>
+                            <p>قرار تجارية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -165,27 +137,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات عقارية</h2>
+                                <h2 class="blog-head">قرار عقارية</h2>
                             </a>
-                            <p>قرارات عقارية</p>
-                            <ul class="blog-info-link">
-                            </ul>
-                        </div>
-                    </article>
-
-
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
-                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
-                                <h3>Télécharger</h3>
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات صعوبات المقاولة</h2>
-                            </a>
-                            <p>قرارات صعوبات المقاولة</p>
+                            <p>قرار عقارية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -201,9 +155,27 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات جنائية</h2>
+                                <h2 class="blog-head">قرار صعوبات المقاولة</h2>
                             </a>
-                            <p>قرارات جنائية</p>
+                            <p>قرار صعوبات المقاولة</p>
+                            <ul class="blog-info-link">
+                            </ul>
+                        </div>
+                    </article>
+
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <img class="card-img rounded-0" src="https://cdnl.iconscout.com/lottie/premium/thumb/download-pdf-file-5583425-4655744.gif" alt="">
+                            <a href="{{url('Nouvelles-recentes')}}" class="blog_item_date">
+                                <h3>Télécharger</h3>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
+                                <h2 class="blog-head">قرار جنائية</h2>
+                            </a>
+                            <p>قرار جنائية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -218,9 +190,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات اجتماعية</h2>
+                                <h2 class="blog-head">قرار اجتماعية</h2>
                             </a>
-                            <p>قرارات اجتماعية</p>
+                            <p>قرار اجتماعية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -235,9 +207,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات ادارية</h2>
+                                <h2 class="blog-head">قرار ادارية</h2>
                             </a>
-                            <p>قرارات ادارية</p>
+                            <p>قرار ادارية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
@@ -252,9 +224,9 @@
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{url('/Nouvelles-recentes')}}">
-                                <h2 class="blog-head">قرارات اسرية</h2>
+                                <h2 class="blog-head">قرار اسرية</h2>
                             </a>
-                            <p>قرارات اسرية</p>
+                            <p>قرار اسرية</p>
                             <ul class="blog-info-link">
                             </ul>
                         </div>
