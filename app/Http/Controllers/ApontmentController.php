@@ -21,14 +21,6 @@ class ApontmentController extends Controller
     }
     
     /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      */
     public function store(ApointmentRequest $request)
@@ -36,37 +28,5 @@ class ApontmentController extends Controller
        $apointment = Contact::create($request->validated());
         Mail::to('zobirofkir19@gmail.com')->send(new ContactReceived($apointment));
         return view('welcome');
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
     }
 }

@@ -28,22 +28,22 @@ class LanguageController extends Controller
 
     public function arabicContact()
     {
-        return view('translate.contact'); // Redirect back to welcome view
+        return view('translate.contact');
     }
 
-    public function arabicJurisprudences()
+    public function arabicPublications()
     {
-        return view('translate.jurisprudences'); // Redirect back to welcome view
+        return view('translate.publications');
     }
 
-    public function arabicPractices()
+    public function arabicExperiences()
     {
-        return view('translate.practice'); // Redirect back to welcome view
+        return view('translate.experience');
     }
 
     public function arabicPropos()
     {
-        return view('translate.propos'); // Redirect back to welcome view
+        return view('translate.propos');
     }
 
     /*
@@ -58,22 +58,22 @@ class LanguageController extends Controller
 
     public function englishContact()
     {
-        return view('translate.en.contact'); // Redirect back to welcome view
+        return view('translate.en.contact');
     }
 
-    public function englishJurisprudences()
+    public function englishPublications()
     {
-        return view('translate.en.Jurisprudence'); // Redirect back to welcome view
+        return view('translate.en.publication');
     }
 
-    public function englishPractices()
+    public function englishExperiences()
     {
-        return view('translate.en.practice'); // Redirect back to welcome view
+        return view('translate.en.experience');
     }
 
     public function englishPropos()
     {
-        return view('translate.en.propos'); // Redirect back to welcome view
+        return view('translate.en.propos');
     }
 
 }
