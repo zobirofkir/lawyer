@@ -35,10 +35,10 @@
                 <nav>
                   <ul id="navigation">
                       <li><a href="{{url('/en/welcome')}}">Home </a></li>
-                      <li><a href="{{url('/en/practice')}}">Areas of expertise</a></li>
+                      <li><a href="{{url('/en/experiences')}}">Areas of expertise</a></li>
                       <li><a href="{{url('/en/about')}}">About us</a></li>
-                      <li><a href="{{url('/en/Recent-News')}}">Publications</a></li>
-                      <li><a href="{{url('/en/contacte')}}">Contact us</a></li>
+                      <li><a href="{{url('/en/publications')}}">Publications</a></li>
+                      <li><a href="{{url('/en/contact')}}">Contact us</a></li>
                   </ul>
                 </nav>
               </div>
@@ -61,10 +61,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li><a href="{{url('/en/welcome')}}">Home </a></li>
-              <li><a href="{{url('/en/practice')}}">Areas of expertise</a></li>
+              <li><a href="{{url('/en/experiences')}}">Areas of expertise</a></li>
               <li><a href="{{url('/en/about')}}">About us</a></li>
-              <li><a href="{{url('/en/Recent-News')}}">Publications</a></li>
-              <li><a href="{{url('/en/contacte')}}">Contact us</a></li>
+              <li><a href="{{url('/en/publications')}}">Publications</a></li>
+              <li><a href="{{url('/en/contact')}}">Contact us</a></li>
             </ul>
           </div>
         </div>

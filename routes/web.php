@@ -13,7 +13,7 @@ Route::apiResource('/', ApontmentController::class);
 Route::apiResource('/contacts', ContactController::class);
 
 Route::get('/experiences', function(){
-    return view('experiences.experience');
+    return view('experiences.experiences');
 });
 
 Route::get('propos', function(){

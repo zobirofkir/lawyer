@@ -38,7 +38,7 @@ class LanguageController extends Controller
 
     public function arabicExperiences()
     {
-        return view('translate.experience');
+        return view('translate.experiences');
     }
 
     public function arabicPropos()
@@ -63,12 +63,12 @@ class LanguageController extends Controller
 
     public function englishPublications()
     {
-        return view('translate.en.publication');
+        return view('translate.en.publications');
     }
 
     public function englishExperiences()
     {
-        return view('translate.en.experience');
+        return view('translate.en.experiences');
     }
 
     public function englishPropos()
