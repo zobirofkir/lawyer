@@ -22,9 +22,9 @@
     <nav>
     <ul>
     <li><a href="{{url('/en/welcome')}}">Home </a></li>
-    <li><a href="{{url('/en/practice')}}">Areas of expertise</a></li>
+    <li><a href="{{url('/en/experiences')}}">Areas of expertise</a></li>
     <li><a href="{{url('/en/about')}}">About Us</a></li>
-    <li><a href="{{url('/en/Recent-News')}}">Publications</a>
+    <li><a href="{{url('/en/publications')}}">Publications</a>
     </li>
     <li><a href="{{url('/en/contacte')}}">Contact us</a></li>
     </ul>

@@ -22,9 +22,9 @@
     <nav>
     <ul>
         <li><a href="{{ url('ar/home') }}">الصفحة الرئيسية </a></li>
-        <li><a href="{{ url('ar/practices') }}">مجالات الخبرة</a></li>
+        <li><a href="{{ url('ar/experiences') }}">مجالات الخبرة</a></li>
         <li><a href="{{ url('ar/propos') }}">المكتب</a></li>
-        <li><a href="{{ url('ar/Nouvelles-recentes') }}">المنشورات</a></li>
+        <li><a href="{{ url('ar/publications') }}">المنشورات</a></li>
         <li><a href="{{ url('ar/contact') }}">اتصل بنا</a></li>
     </ul>
     </nav>

@@ -22,9 +22,9 @@
     <nav>
     <ul>
     <li><a href="{{url('/')}}">Accueil</a></li>
-    <li><a href="{{url('/pratique')}}">Les domaines d´expertises</a></li>
+    <li><a href="{{url('/experiences')}}">Les domaines d´expertises</a></li>
     <li><a href="{{url('/propos')}}">Qui sommes-nous ?</a></li>
-    <li><a href="{{url('Jurisprudence')}}">publications</a>
+    <li><a href="{{url('/publications')}}">publications</a>
     </li>
     <li><a href="{{url('/contacts')}}">Nous contacter</a></li>
     </ul>
