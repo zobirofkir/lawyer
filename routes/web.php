@@ -12,17 +12,9 @@ Route::apiResource('/', ApontmentController::class);
 
 Route::apiResource('/contacts', ContactController::class);
 
-Route::get('/experiences', function(){
-    return view('experiences.experiences');
-});
-
-Route::get('propos', function(){
-    return view('proposes.propos');
-});
-
-Route::get('/publications', function(){
-    return view('publications.publication');
-});
+Route::get('/experiences', [LanguageController::class, 'experiences']);
+Route::get('/propos', [LanguageController::class, 'propos']);
+Route::get('/publications', [LanguageController::class, 'publications']);
 
 // 
 

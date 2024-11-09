@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ApointmentRequest;
 use App\Mail\ContactReceived;
 use App\Models\Contact;
+use App\Models\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cookie;
@@ -12,7 +13,28 @@ use Illuminate\Support\Facades\Mail;
 
 class LanguageController extends Controller
 {
+    /**
+     * Create English Translation
+     */
+    public function experiences()
+    {
+        return view('experiences.experiences');
+    }
 
+    public function propos()
+    {
+        return view('proposes.propos');
+    }
+
+    public function publications()
+    {
+        $pdfs = Pdf::all();
+        return view('publications.publication', compact('pdfs'));
+    }
+    
+    /**
+     * Create Arabic Translation
+     */
     public function arabic()
     {
         return view('translate.welcome'); 
@@ -33,7 +55,8 @@ class LanguageController extends Controller
 
     public function arabicPublications()
     {
-        return view('translate.publications');
+        $pdfs = Pdf::all();
+        return view('translate.publications', compact('pdfs'));
     }
 
     public function arabicExperiences()
@@ -48,9 +71,7 @@ class LanguageController extends Controller
 
     /*
         Create English Translation
-    */
-
-    
+    */    
     public function english()
     {
         return view('translate.en.welcome'); 
@@ -63,7 +84,9 @@ class LanguageController extends Controller
 
     public function englishPublications()
     {
-        return view('translate.en.publications');
+        $pdfs = Pdf::all();
+
+        return view('translate.en.publications', compact('pdfs'));
     }
 
     public function englishExperiences()
