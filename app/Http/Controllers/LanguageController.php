@@ -28,7 +28,7 @@ class LanguageController extends Controller
 
     public function publications()
     {
-        $pdfs = Pdf::all();
+        $pdfs = Pdf::orderBy('created_at', 'desc')->get();
         return view('publications.publication', compact('pdfs'));
     }
     
@@ -55,7 +55,7 @@ class LanguageController extends Controller
 
     public function arabicPublications()
     {
-        $pdfs = Pdf::all();
+        $pdfs = Pdf::orderBy('created_at', 'desc')->get();
         return view('translate.publications', compact('pdfs'));
     }
 
@@ -84,8 +84,7 @@ class LanguageController extends Controller
 
     public function englishPublications()
     {
-        $pdfs = Pdf::all();
-
+        $pdfs = Pdf::orderBy('created_at', 'desc')->get();
         return view('translate.en.publications', compact('pdfs'));
     }
 
