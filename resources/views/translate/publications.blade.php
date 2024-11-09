@@ -17,37 +17,32 @@
     </div>
     </div>
     
-    <section class="blog_area section-padding" style="display: flex; justify-content: center; align-items: center;">
+    <section class="blog_area section-padding py-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="blog_left_sidebar d-flex flex-wrap justify-content-between">
+                <div class="col-lg-10">
+                    <div class="row g-4">
                         @foreach ($pdfs as $pdf)
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <a href="{{asset('storage/'.$pdf->pdf)}}">
-                                        <img class="card-img rounded-0" src="{{asset('storage/'.$pdf->images[0])}}" alt="">
-                                    </a>
-                                    <a href="{{asset('storage/'.$pdf->pdf)}}" class="blog_item_date">
-                                        <h3>{{$pdf->created_at->format('d')}}</h3>
-                                        <p>{{$pdf->created_at->format('M')}}</p>
-                                    </a>
-                                </div>
-                                <div class="blog_details">
-                                    <a class="d-inline-block" href="{{asset('storage/'.$pdf->pdf)}}">
-                                        <h2 class="blog-head">{{$pdf->title}}</h2>
-                                    </a>
-                                    <p>{{$pdf->description}}</p>
-                                    <ul class="blog-info-link">
-                                    </ul>
-                                </div>
-                            </article>
+                            <div class="col-md-6">
+                                <article class="blog_item card h-100">
+                                    <div class="blog_item_img position-relative">
+                                        <a href="{{ asset('storage/' . $pdf->pdf) }}">
+                                            <img class="card-img-top rounded" src="{{ asset('storage/' . $pdf->images[0]) }}" alt="Blog Image">
+                                        </a>
+                                        <div class="blog_item_date position-absolute top-0 start-0 bg-danger text-white p-2 rounded">
+                                            <h3 class="m-0">{{ $pdf->created_at->format('d') }}</h3>
+                                            <p class="m-0">{{ $pdf->created_at->format('M') }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a class="text-decoration-none" href="{{ asset('storage/' . $pdf->pdf) }}">
+                                            <h2 class="blog-head h5">{{ $pdf->title }}</h2>
+                                        </a>
+                                        <p class="card-text">{{ $pdf->description }}</p>
+                                    </div>
+                                </article>
+                            </div>
                         @endforeach
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog_right_sidebar">
-                        <!-- Right Sidebar Content Goes Here -->
                     </div>
                 </div>
             </div>

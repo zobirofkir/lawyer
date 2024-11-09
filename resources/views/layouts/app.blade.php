@@ -22,35 +22,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/modal.css')}}">  
 <!-- Bootstrap CSS -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-    @keyframes moveLeftRight {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(10px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-    }
-
-    .bg-danger {
-    animation: moveLeftRight 2s infinite;
-    }
-</style>
-
-<style>
-    .goog-te-banner-frame.skiptranslate {
-        display: none !important;
-    }
-
-    body {
-        top: 0 !important;
-    }
-</style>
-
+<link rel="stylesheet" href="{{asset('assets/css/layout.css')}}">
 </head>
 <body>
 
