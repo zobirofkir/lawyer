@@ -9,7 +9,7 @@
                 <div class="header-info-left">
                   <ul>
                     <li>Adresse : 44, Rue Antaki, Immeuble Al Oumam 2, N 19, Place des nations, Tanger Maroc</li>
-                    <li>Envoyez-nous un courrier : <a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b474a5c524e591c1d6d4c464a424705484446" style="color: white;">cabinetrethmani@gmail.com</a></li>
+                    <li>Envoyez-nous un courrier : <a class="__cf_email__" data-cfemail="2b474a5c524e591c1d6d4c464a424705484446" style="color: white;">cabinetrethmani@gmail.com</a></li>
                   </ul>
                 </div>
                 <div class="header-info-right">

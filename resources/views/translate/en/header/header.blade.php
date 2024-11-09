@@ -9,7 +9,7 @@
                 <div class="header-info-left">
                   <ul>
                   <li>Address: 44, Rue Antaki, Immeuble Al Oumam 2, N 19, Place des Nations, Tangier Morocco</li>
-                  <li>Send us a mail : <a href="../../cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b474a5c524e591c1d6b4c464a424705484446" style="color: white;">cabinetrethmani@gmail.com</a></li>
+                  <li>Send us a mail : <a class="__cf_email__" data-cfemail="2b474a5c524e591c1d6b4c464a424705484446" style="color: white;">cabinetrethmani@gmail.com</a></li>
                   </ul>
                 </div>
                 <div class="header-info-right">
