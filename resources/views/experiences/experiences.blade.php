@@ -34,7 +34,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Difficulté des entreprises</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Notre cabinet d'avocats offre une expertise approfondie en matière de difficulté des entreprises.
@@ -67,7 +67,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel2">Droit commercial</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Spécialistes en droit commercial, nous fournissons des conseils juridiques et une assistance complète
@@ -99,7 +99,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel3">Droit administratif</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Notre expertise en droit administratif permet de conseiller et d'assister nos clients dans leurs
@@ -134,7 +134,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel4">Droit des affaires</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Nous offrons des services de conseil et de contentieux en droit des affaires, couvrant tous les aspects
@@ -168,7 +168,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel5">Droit civil</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Le droit civil est au cœur de notre pratique, englobant une vaste gamme de services tels que les
@@ -201,7 +201,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel6">Droit immobilier</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Notre cabinet est spécialisé en droit immobilier, offrant des conseils juridiques sur les transactions
@@ -234,7 +234,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel7">Droit des assurances</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Nous fournissons des services juridiques spécialisés en droit des assurances, couvrant la rédaction et
@@ -266,7 +266,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel8">Droit de la famille et social</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Nous offrons un accompagnement personnalisé en droit de la famille, couvrant des sujets tels que le
@@ -298,7 +298,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel9">Droit finance</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               En droit des finances, nous offrons une expertise pointue sur les questions de financement, de
@@ -330,7 +330,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel10">Arbitrage</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               En matière d’arbitrage, nous proposons des services de résolution de conflits alternatifs aux
@@ -362,7 +362,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel11">Création entreprise</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               Notre cabinet accompagne les entrepreneurs dans la création et le développement de leurs

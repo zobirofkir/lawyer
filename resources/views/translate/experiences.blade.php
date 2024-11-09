@@ -33,7 +33,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">صعوبات المقاولات</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
             يتوفرمكتبنا على خبرة كبيرة في ميدان معالجة الصعوبات التي تعترض المقاولات وذلك
@@ -68,7 +68,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel2">القانون التجاري</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               يتوفر مكتبنا على تجربة طويلة في مجال القانون التجاري بكافة فروعه، سواء تعلق الأمر بالملكية التجارية أو الفكرية، أو قانون حماية المستهلك، أو القانون المتعلق بالكراء التجاري. إضافة إلى تحرير العقود والإشراف على الاتفاقيات التجارية وإنشاء المقاولات.
@@ -97,7 +97,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel3">القانون الإداري</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               من صلب اهتمامات المكتب القانون الإداري، ونتوفر على تجربة مهمة في هذا الميدان، سواء تعلق الأمر بدعاوى التعويض في مجال مسطرة نزع الملكية أو مسطرة الاعتداء المادي، أو دعاوى الإلغاء بشتى أنواعها، سواء في مجال الرخص الإدارية أو المسؤولية الإدارية...
@@ -125,7 +125,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel4">قانون الاعمال</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               المكتب يقدم للزبائن خدمة تتمثل في الاستشارات والنزاعات المتعلقة بقانون الاعمال، والتي لها ارتباطات بقانون العقود، قانون الملكية الفكرية، قانون الشركات، قانون الضرائب، القانون الجنائي، وقانون حماية المستهلك، وغيرها.
@@ -154,7 +154,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel5">القانون المدني</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               القانون المدني هو أيضًا من بين الاختصاصات التي يتخصص فيها مكتبنا، ويعد من بين التطبيقات العملية التي مارسها المكتب على امتداد فترة زمنية طويلة. يشمل ذلك الالتزامات بشكل عام وآثارها وإثباتها، وأيضًا كافة أنواع العقود بشكل عام.
@@ -182,7 +182,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel6">القانون العقاري</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               إن مكتبنا يختص في تقديم الاستشارات ومتابعة النزاعات القضائية بخصوص التفويتات العقارية بكافة أشكالها، ومواكبة إجراءات التسجيل والتشطيب، وإيقاع الرهون والحجوزات التحفظية ورفعها، وكل ما يضمن الملكية العقارية.
@@ -210,7 +210,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel7"> مدونة الاسرة</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               يقدم المكتب إرشادات ويواكب النزاعات الأسرية، سواء تعلق الأمر بالزواج أو الطلاق، أو النفقة والحضانة، وكذلك الإرث وقضايا القسمة العقارية بين الأقارب، وغيرها.
@@ -238,7 +238,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel8">القانون المالي</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               إن اختصاصاتنا تتركز على الإشكاليات المالية، مع توجيه المقاولات للإجراءات الواجب اتخاذها، سواء تعلق الأمر بالاستثمار، أو العمليات البنكية، وغيرها.
@@ -265,7 +265,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel9">قانون الشغل</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
           </div>
           <div class="modal-body">
               للمكتب تجربة طويلة في مجال التطبيقات والتعديلات التي عرفتها مدونة الشغل المغربية، بخصوص توجيه المقاولات لنهج سياسة سلسة مع العمال، وحسن إدارة المشاكل الاجتماعية، وسلوك الإجراءات اللازمة في حالة الأخطاء الجسيمة، أو المغادرة الطوعية، أو الاستقالة، وغيرها.
