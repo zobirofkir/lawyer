@@ -3,17 +3,6 @@
 
     <div class="container my-5">
 
-        <div class="row mb-4">
-            <div class="col-12 text-center">
-                <form action="" method="GET" class="d-flex justify-content-center">
-                    <input type="text" name="query" class="form-control w-50" placeholder="Rechercher des articles de blog..." aria-label="Rechercher">
-                    <button type="submit" class="btn btn-primary ms-2">
-                        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: white;"></i>
-                    </button>
-                </form>
-            </div>
-        </div>
-
         <div class="row mb-5">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold text-center mb-3">Nos Blogs</h1>
