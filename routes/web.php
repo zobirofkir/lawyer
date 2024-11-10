@@ -33,6 +33,7 @@ Route::get('ar/propos', [LanguageController::class, 'arabicPropos'])->name('lang
 Route::get('en/welcome', [LanguageController::class, 'english'])->name('lang.switch');
 Route::get('en/contact', [LanguageController::class, 'englishContact'])->name('lang.switch.contact');
 Route::get('en/publications', [LanguageController::class, 'englishPublications'])->name('lang.switch.recente');
+Route::get('en/blogs', [LanguageController::class, 'englishBlogs'])->name('lang.switch.recente');
 Route::get('en/experiences', [LanguageController::class, 'englishExperiences'])->name('lang.switch.experiences');
 Route::get('en/about', [LanguageController::class, 'englishPropos'])->name('lang.switch.propos');
 

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Mail;
 class LanguageController extends Controller
 {
     /**
-     * Create English Translation
+     * Create French Translation
      */
     public function experiences()
     {
@@ -93,6 +93,12 @@ class LanguageController extends Controller
     {
         $pdfs = Pdf::orderBy('created_at', 'desc')->get();
         return view('translate.en.publications', compact('pdfs'));
+    }
+
+    public function englishBlogs()
+    {
+        $blogs = Blog::orderBy('created_at', 'desc')->get();
+        return view('translate.en.blogs.blogs', compact('blogs'));
     }
 
     public function englishExperiences()
