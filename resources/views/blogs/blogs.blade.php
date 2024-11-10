@@ -31,7 +31,7 @@
                         <p class="card-text text-muted">
                             {{ Str::limit($item->description, 80) }}
                         </p>
-                        <a href="#" class="btn btn-outline-primary text-dark px-4 py-2 rounded-3 shadow-sm border-2 hover-btn">Read More</a>
+                        <a href="{{ route('blogs.show', $item->slug) }}" class="btn btn-outline-primary text-dark px-4 py-2 rounded-3 shadow-sm border-2 hover-btn">Read More</a>
                     </div>
                 </div>
             </div>

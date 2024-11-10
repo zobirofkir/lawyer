@@ -11,12 +11,23 @@ class Blog extends Model
         'title',
         'description',
         'images',
-        'slug'
+        'slug',
+        'user_id'
     ];
 
     protected $casts = [
         'images' => 'array'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
 
     protected static function boot()
     {

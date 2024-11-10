@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ApontmentController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Requests\ApointmentRequest;
@@ -35,4 +36,9 @@ Route::get('en/experiences', [LanguageController::class, 'englishExperiences'])-
 Route::get('en/about', [LanguageController::class, 'englishPropos'])->name('lang.switch.propos');
 
 
-Route::apiResource("blogs", BlogController::class);
+Route::apiResource("blogs", BlogController::class)->except(["show"]);
+Route::get("blogs/{blog:slug}", [BlogController::class, "show"])->name("blogs.show");
+
+
+Route::post('/blog/{slug}/comments', [CommentController::class, 'store'])->name('comments.store');
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');

@@ -12,4 +12,9 @@ class Comment extends Model
         "email",
         "comment"
     ];
+
+    public function blog()
+    {
+        return $this->belongsTo(Blog::class);
+    }
 }

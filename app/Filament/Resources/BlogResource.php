@@ -7,6 +7,7 @@ use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
 use Filament\Forms;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Hidden;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
@@ -17,6 +18,7 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Auth;
 
 class BlogResource extends Resource
 {
@@ -43,6 +45,9 @@ class BlogResource extends Resource
                     ->disk('public')
                     ->directory('blogs')
                     ->label('Images'),
+
+                Hidden::make('user_id')
+                    ->default(Auth::user()->id),
             ])->columns(1);
     }
 
