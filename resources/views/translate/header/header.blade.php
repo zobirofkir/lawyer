@@ -38,7 +38,7 @@
                     <li><a href="{{ url('ar/experiences') }}">مجالات الخبرة</a></li>
                     <li><a href="{{ url('ar/propos') }}">المكتب</a></li>
                     <li><a href="{{ url('ar/publications') }}">المنشورات</a></li>
-                    <li><a href="{{ url('/blogs') }}">المدونات</a></li>
+                    <li><a href="{{ url('/ar/blogs') }}">المدونات</a></li>
                     <li><a href="{{ url('ar/contact') }}">اتصل بنا</a></li>
                   </ul>
                 </nav>
@@ -66,7 +66,7 @@
             <li><a href="{{ url('ar/experiences') }}">مجالات الخبرة</a></li>
             <li><a href="{{ url('ar/propos') }}">المكتب</a></li>
             <li><a href="{{ url('ar/publications') }}">المنشورات</a></li>
-            <li><a href="{{ url('/blogs') }}">المدونات</a></li>
+            <li><a href="{{ url('/ar/blogs') }}">المدونات</a></li>
             <li><a href="{{ url('ar/contact') }}">اتصل بنا</a></li>
             </ul>
           </div>

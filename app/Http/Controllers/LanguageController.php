@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ApointmentRequest;
 use App\Mail\ContactReceived;
+use App\Models\Blog;
 use App\Models\Contact;
 use App\Models\Pdf;
 use Illuminate\Http\Request;
@@ -57,6 +58,12 @@ class LanguageController extends Controller
     {
         $pdfs = Pdf::orderBy('created_at', 'desc')->get();
         return view('translate.publications', compact('pdfs'));
+    }
+
+    public function arabicBlogs()
+    {
+        $blogs = Blog::orderBy('created_at', 'desc')->get();
+        return view('translate.blogs.blogs', compact('blogs'));
     }
 
     public function arabicExperiences()

@@ -23,6 +23,7 @@ Route::get('/publications', [LanguageController::class, 'publications']);
 Route::get('ar/home', [LanguageController::class, 'arabic'])->name('lang.switch');
 Route::get('ar/contact', [LanguageController::class, 'arabicContact'])->name('lang.switch.contact');
 Route::get('ar/publications', [LanguageController::class, 'arabicPublications'])->name('lang.switch.recente');
+Route::get('ar/blogs', [LanguageController::class, 'arabicBlogs'])->name('lang.switch.recente');
 Route::get('ar/experiences', [LanguageController::class, 'arabicExperiences'])->name('lang.switch.experiences');
 Route::get('ar/propos', [LanguageController::class, 'arabicPropos'])->name('lang.switch.propos');
 
