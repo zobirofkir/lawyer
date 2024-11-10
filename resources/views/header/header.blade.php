@@ -37,8 +37,8 @@
                     <li><a href="{{url('/')}}">Accueil </a></li>
                     <li><a href="{{url('/experiences')}}">Les domaines d´expertises</a></li>
                     <li><a href="{{url('/propos')}}">Qui sommes-nous</a></li>
-                    <li><a href="{{url('/publications')}}">publications</a></li>
-                    <li><a href="{{url('/blogs')}}">blogs</a></li>
+                    <li><a href="{{url('/publications')}}">Publications</a></li>
+                    <li><a href="{{url('/blogs')}}">Blogs</a></li>
                     <li><a href="{{url('/contacts')}}">Nous contacter</a></li>
                   </ul>
                 </nav>
@@ -64,8 +64,8 @@
               <li class="nav-item"><a class="nav-link" href="{{url('/')}}">Accueil </a></li>
               <li class="nav-item"><a class="nav-link" href="{{url('/experiences')}}">Les domaines d´expertises</a></li>
               <li class="nav-item"><a class="nav-link" href="{{url('/propos')}}">Qui sommes-nous</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{url('/publications')}}">publications</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{url('/blogs')}}">blogs</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{url('/publications')}}">Publications</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{url('/blogs')}}">Blogs</a></li>
               <li class="nav-item"><a class="nav-link" href="{{url('/contacts')}}">Nous contacter</a></li>
             </ul>
           </div>

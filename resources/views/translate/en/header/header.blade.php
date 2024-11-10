@@ -38,6 +38,7 @@
                       <li><a href="{{url('/en/experiences')}}">Areas of expertise</a></li>
                       <li><a href="{{url('/en/about')}}">About us</a></li>
                       <li><a href="{{url('/en/publications')}}">Publications</a></li>
+                      <li><a href="{{url('/blogs')}}">Blogs</a></li>
                       <li><a href="{{url('/en/contact')}}">Contact us</a></li>
                   </ul>
                 </nav>
@@ -65,6 +66,7 @@
               <li><a href="{{url('/en/experiences')}}">Areas of expertise</a></li>
               <li><a href="{{url('/en/about')}}">About us</a></li>
               <li><a href="{{url('/en/publications')}}">Publications</a></li>
+              <li><a href="{{url('/en/blogs')}}">Blogs</a></li>
               <li><a href="{{url('/en/contact')}}">Contact us</a></li>
             </ul>
           </div>
