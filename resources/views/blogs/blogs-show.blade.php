@@ -3,14 +3,6 @@
 
     <div class="container my-5">
 
-        <div class="row mb-4">
-            <div class="col-12 text-center">
-                <a href="{{ url('/home') }}" class="btn btn-secondary">
-                    <i class="fa-solid fa-arrow-left"></i> Retour aux publications
-                </a>
-            </div>
-        </div>
-
         <div class="row mb-5">
             <div class="col-12">
                 <h1 class="display-4 font-weight-bold text-center mb-3">{{ $blog->title }}</h1>
@@ -67,7 +59,7 @@
                             <p class="text-danger">{{ $message }}</p>
                         @enderror
                     </div>
-                    <button type="submit" class="btn btn-primary">Publier le commentaire</button>
+                    <button type="submit" class="btn btn-secondary">Publier le commentaire</button>
                 </form>
             </div>
         </div>
