@@ -47,8 +47,8 @@
             <!-- Language dropdown -->
             <div class="col-6 col-lg-2 order-3 order-lg-3 text-right">
               <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Choose Language
+                <button style="background: white; color: black" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa-solid fa-globe fa-xl" style="color: black"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="{{ url('/ar/home') }}">Arabic</a>
