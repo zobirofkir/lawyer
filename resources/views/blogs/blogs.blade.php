@@ -5,7 +5,7 @@
 
         <div class="row mb-5">
             <div class="col-12">
-                <h1 class="display-4 font-weight-bold text-center mb-3">Nos Blogs</h1>
+                <h1 class="display-4 font-weight-bold text-center mb-3">Notre blog</h1>
             </div>
         </div>
 
