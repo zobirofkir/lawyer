@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ApontmentController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Requests\ApointmentRequest;
@@ -32,3 +33,6 @@ Route::get('en/contact', [LanguageController::class, 'englishContact'])->name('l
 Route::get('en/publications', [LanguageController::class, 'englishPublications'])->name('lang.switch.recente');
 Route::get('en/experiences', [LanguageController::class, 'englishExperiences'])->name('lang.switch.experiences');
 Route::get('en/about', [LanguageController::class, 'englishPropos'])->name('lang.switch.propos');
+
+
+Route::apiResource("blogs", BlogController::class);
